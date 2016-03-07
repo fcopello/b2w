@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="265dp"
+    android:layout_margin="2dp"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingTop="0dp"
+    card_view:cardCornerRadius="0dp">
+
+    <RelativeLayout
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/image"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp"
+            android:textColor="@color/title"/>
+
+        <TextView
+            android:id="@+id/default_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/default_price"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/default_price"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/price"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/installments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/price"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/installments"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

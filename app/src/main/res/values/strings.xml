@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Americanas</string>
+    <string name="action_settings">Configurações</string>
+    <string name="load_products_error">Ocorreu um erro ao carregar os produtos.</string>
+</resources>

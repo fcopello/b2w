@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_bd_text_white">#FFFFFF</color>
+    <color name="color_bd_red">#E60014</color>
+    <color name="color_bd_red_title">#E60014</color>
+    <color name="color_bd_divider">#E7E7E7</color>
+
+    //card product
+    <color name="title">#000000</color>
+    <color name="default_price">#CCCCCC</color>
+    <color name="price">#000000</color>
+    <color name="installments">#E60014</color>
+
+
+</resources>
