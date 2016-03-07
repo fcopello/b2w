@@ -62,8 +62,10 @@ Response:
 ````
 
 ### Toolkit
-Square Retrofit
-Square Picaso
+<ul>
+<li>Square Retrofit</li>
+<li>Square Picaso</li>
+</ul>
 
 
 
